@@ -3,7 +3,7 @@
 library(ggplot2)
 
 # Read file into dataframe
-file_name <- ("/Users/pauldonovan/Dropbox/Pauls_crap/Butler and Higgins Lab/TPP_Riboswitch/PlateReader/RFP/Ribo-and-NoRibo_TwoConcs_24hr_For-R.tsv")
+file_name <- ("/Path/to/file.tsv")
 d <- read.table(file_name, 
                 header = TRUE, 
                 sep = "\t", 
@@ -12,7 +12,7 @@ d <- read.table(file_name,
 dframe <- data.frame(d)
 
 # Open PDF for plot
-pdf("/Users/pauldonovan/Dropbox/Pauls_crap/Butler and Higgins Lab/TPP_Riboswitch/PlateReader/RFP/Ribo-and-NoRibo_TwoConcs_24hr_For-R.pdf",
+pdf("/path/to/file.pdf",
     width=10,height=5)
 # Generate plot
 ggplot(data=dframe,
