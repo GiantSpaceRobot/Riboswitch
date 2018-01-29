@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-Very messy script that accepts raw plate reader output and formats it so it is ready for R or excel
+Very messy script that accepts raw plate reader (Synergy HT) output and formats it so it is ready for R or excel
 """
 
 __author__ = "Paul Donovan" 
